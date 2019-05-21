@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		622BA6291FD73FD7001D06CF /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 622BA6281FD73FD7001D06CF /* FifthViewController.m */; };
+		622BA62C1FD7471C001D06CF /* ResistorCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 622BA62B1FD7471C001D06CF /* ResistorCalculator.m */; };
+		62374F2E1FD5E4BB001BEC4C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62374F2C1FD5E4BB001BEC4C /* icon@2x.png */; };
+		62374F2F1FD5E4BB001BEC4C /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62374F2D1FD5E4BB001BEC4C /* icon@3x.png */; };
+		624BFD091FCC18C7000574F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 624BFD081FCC18C7000574F3 /* main.m */; };
+		624BFD0C1FCC18C7000574F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 624BFD0B1FCC18C7000574F3 /* AppDelegate.m */; };
+		624BFD0F1FCC18C7000574F3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 624BFD0E1FCC18C7000574F3 /* FirstViewController.m */; };
+		624BFD121FCC18C7000574F3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 624BFD111FCC18C7000574F3 /* SecondViewController.m */; };
+		624BFD151FCC18C7000574F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624BFD131FCC18C7000574F3 /* Main.storyboard */; };
+		624BFD171FCC18C8000574F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624BFD161FCC18C8000574F3 /* Assets.xcassets */; };
+		624BFD1A1FCC18C8000574F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624BFD181FCC18C8000574F3 /* LaunchScreen.storyboard */; };
+		624BFD251FCC18C8000574F3 /* ResCapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 624BFD241FCC18C8000574F3 /* ResCapTests.m */; };
+		624BFD301FCC18C8000574F3 /* ResCapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 624BFD2F1FCC18C8000574F3 /* ResCapUITests.m */; };
+		624BFD421FCC1A29000574F3 /* ResistorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 624BFD411FCC1A29000574F3 /* ResistorValue.m */; };
+		624BFD451FCC39FC000574F3 /* CapacitorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 624BFD441FCC39FC000574F3 /* CapacitorValue.m */; };
+		624BFD481FCC706B000574F3 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 624BFD471FCC706B000574F3 /* ThirdViewController.m */; };
+		628EF36D1FD891440007978C /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 628EF36C1FD891440007978C /* WebViewController.m */; };
+		62A4FB161FCD6F0E0058EF91 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A4FB151FCD6F0E0058EF91 /* FourthViewController.m */; };
+		62A4FB191FCD6F930058EF91 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A4FB181FCD6F930058EF91 /* TableViewController.m */; };
+		62A4FB241FCD706F0058EF91 /* Resistor.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A4FB211FCD706F0058EF91 /* Resistor.m */; };
+		62A4FB251FCD706F0058EF91 /* ResistorDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A4FB231FCD706F0058EF91 /* ResistorDataModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		624BFD211FCC18C8000574F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 624BFCFC1FCC18C7000574F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624BFD031FCC18C7000574F3;
+			remoteInfo = ResCap;
+		};
+		624BFD2C1FCC18C8000574F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 624BFCFC1FCC18C7000574F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624BFD031FCC18C7000574F3;
+			remoteInfo = ResCap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		622BA6271FD73FD7001D06CF /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		622BA6281FD73FD7001D06CF /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		622BA62A1FD7471C001D06CF /* ResistorCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResistorCalculator.h; sourceTree = "<group>"; };
+		622BA62B1FD7471C001D06CF /* ResistorCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResistorCalculator.m; sourceTree = "<group>"; };
+		62374F2C1FD5E4BB001BEC4C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		62374F2D1FD5E4BB001BEC4C /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
+		624BFD041FCC18C7000574F3 /* ResCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		624BFD081FCC18C7000574F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		624BFD0A1FCC18C7000574F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		624BFD0B1FCC18C7000574F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		624BFD0D1FCC18C7000574F3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		624BFD0E1FCC18C7000574F3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		624BFD101FCC18C7000574F3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		624BFD111FCC18C7000574F3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		624BFD141FCC18C7000574F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		624BFD161FCC18C8000574F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		624BFD191FCC18C8000574F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		624BFD1B1FCC18C8000574F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624BFD201FCC18C8000574F3 /* ResCapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResCapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		624BFD241FCC18C8000574F3 /* ResCapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResCapTests.m; sourceTree = "<group>"; };
+		624BFD261FCC18C8000574F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624BFD2B1FCC18C8000574F3 /* ResCapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResCapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		624BFD2F1FCC18C8000574F3 /* ResCapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResCapUITests.m; sourceTree = "<group>"; };
+		624BFD311FCC18C8000574F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624BFD401FCC1A29000574F3 /* ResistorValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResistorValue.h; sourceTree = "<group>"; };
+		624BFD411FCC1A29000574F3 /* ResistorValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResistorValue.m; sourceTree = "<group>"; };
+		624BFD431FCC39FC000574F3 /* CapacitorValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapacitorValue.h; sourceTree = "<group>"; };
+		624BFD441FCC39FC000574F3 /* CapacitorValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapacitorValue.m; sourceTree = "<group>"; };
+		624BFD461FCC706B000574F3 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		624BFD471FCC706B000574F3 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		628EF36B1FD891440007978C /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		628EF36C1FD891440007978C /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		62A4FB141FCD6F0E0058EF91 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		62A4FB151FCD6F0E0058EF91 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		62A4FB171FCD6F930058EF91 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		62A4FB181FCD6F930058EF91 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		62A4FB201FCD706F0058EF91 /* Resistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resistor.h; sourceTree = "<group>"; };
+		62A4FB211FCD706F0058EF91 /* Resistor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Resistor.m; sourceTree = "<group>"; };
+		62A4FB221FCD706F0058EF91 /* ResistorDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResistorDataModel.h; sourceTree = "<group>"; };
+		62A4FB231FCD706F0058EF91 /* ResistorDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResistorDataModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		624BFD011FCC18C7000574F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624BFD1D1FCC18C8000574F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624BFD281FCC18C8000574F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62374F2B1FD5E4A5001BEC4C /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				62374F2C1FD5E4BB001BEC4C /* icon@2x.png */,
+				62374F2D1FD5E4BB001BEC4C /* icon@3x.png */,
+			);
+			name = icon;
+			sourceTree = "<group>";
+		};
+		624BFCFB1FCC18C7000574F3 = {
+			isa = PBXGroup;
+			children = (
+				622BA62A1FD7471C001D06CF /* ResistorCalculator.h */,
+				622BA62B1FD7471C001D06CF /* ResistorCalculator.m */,
+				62374F2B1FD5E4A5001BEC4C /* icon */,
+				62A4FB201FCD706F0058EF91 /* Resistor.h */,
+				62A4FB211FCD706F0058EF91 /* Resistor.m */,
+				62A4FB221FCD706F0058EF91 /* ResistorDataModel.h */,
+				62A4FB231FCD706F0058EF91 /* ResistorDataModel.m */,
+				624BFD401FCC1A29000574F3 /* ResistorValue.h */,
+				624BFD431FCC39FC000574F3 /* CapacitorValue.h */,
+				624BFD441FCC39FC000574F3 /* CapacitorValue.m */,
+				624BFD411FCC1A29000574F3 /* ResistorValue.m */,
+				624BFD061FCC18C7000574F3 /* ResCap */,
+				624BFD231FCC18C8000574F3 /* ResCapTests */,
+				624BFD2E1FCC18C8000574F3 /* ResCapUITests */,
+				624BFD051FCC18C7000574F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		624BFD051FCC18C7000574F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				624BFD041FCC18C7000574F3 /* ResCap.app */,
+				624BFD201FCC18C8000574F3 /* ResCapTests.xctest */,
+				624BFD2B1FCC18C8000574F3 /* ResCapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		624BFD061FCC18C7000574F3 /* ResCap */ = {
+			isa = PBXGroup;
+			children = (
+				624BFD0A1FCC18C7000574F3 /* AppDelegate.h */,
+				624BFD0B1FCC18C7000574F3 /* AppDelegate.m */,
+				624BFD0D1FCC18C7000574F3 /* FirstViewController.h */,
+				624BFD0E1FCC18C7000574F3 /* FirstViewController.m */,
+				624BFD101FCC18C7000574F3 /* SecondViewController.h */,
+				624BFD111FCC18C7000574F3 /* SecondViewController.m */,
+				624BFD131FCC18C7000574F3 /* Main.storyboard */,
+				62A4FB171FCD6F930058EF91 /* TableViewController.h */,
+				62A4FB181FCD6F930058EF91 /* TableViewController.m */,
+				62A4FB141FCD6F0E0058EF91 /* FourthViewController.h */,
+				62A4FB151FCD6F0E0058EF91 /* FourthViewController.m */,
+				624BFD461FCC706B000574F3 /* ThirdViewController.h */,
+				624BFD161FCC18C8000574F3 /* Assets.xcassets */,
+				624BFD471FCC706B000574F3 /* ThirdViewController.m */,
+				624BFD181FCC18C8000574F3 /* LaunchScreen.storyboard */,
+				624BFD071FCC18C7000574F3 /* Supporting Files */,
+				624BFD1B1FCC18C8000574F3 /* Info.plist */,
+				622BA6271FD73FD7001D06CF /* FifthViewController.h */,
+				622BA6281FD73FD7001D06CF /* FifthViewController.m */,
+				628EF36B1FD891440007978C /* WebViewController.h */,
+				628EF36C1FD891440007978C /* WebViewController.m */,
+			);
+			path = ResCap;
+			sourceTree = "<group>";
+		};
+		624BFD071FCC18C7000574F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				624BFD081FCC18C7000574F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		624BFD231FCC18C8000574F3 /* ResCapTests */ = {
+			isa = PBXGroup;
+			children = (
+				624BFD241FCC18C8000574F3 /* ResCapTests.m */,
+				624BFD261FCC18C8000574F3 /* Info.plist */,
+			);
+			path = ResCapTests;
+			sourceTree = "<group>";
+		};
+		624BFD2E1FCC18C8000574F3 /* ResCapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				624BFD2F1FCC18C8000574F3 /* ResCapUITests.m */,
+				624BFD311FCC18C8000574F3 /* Info.plist */,
+			);
+			path = ResCapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		624BFD031FCC18C7000574F3 /* ResCap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624BFD341FCC18C8000574F3 /* Build configuration list for PBXNativeTarget "ResCap" */;
+			buildPhases = (
+				624BFD001FCC18C7000574F3 /* Sources */,
+				624BFD011FCC18C7000574F3 /* Frameworks */,
+				624BFD021FCC18C7000574F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResCap;
+			productName = ResCap;
+			productReference = 624BFD041FCC18C7000574F3 /* ResCap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		624BFD1F1FCC18C8000574F3 /* ResCapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624BFD371FCC18C8000574F3 /* Build configuration list for PBXNativeTarget "ResCapTests" */;
+			buildPhases = (
+				624BFD1C1FCC18C8000574F3 /* Sources */,
+				624BFD1D1FCC18C8000574F3 /* Frameworks */,
+				624BFD1E1FCC18C8000574F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624BFD221FCC18C8000574F3 /* PBXTargetDependency */,
+			);
+			name = ResCapTests;
+			productName = ResCapTests;
+			productReference = 624BFD201FCC18C8000574F3 /* ResCapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		624BFD2A1FCC18C8000574F3 /* ResCapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624BFD3A1FCC18C8000574F3 /* Build configuration list for PBXNativeTarget "ResCapUITests" */;
+			buildPhases = (
+				624BFD271FCC18C8000574F3 /* Sources */,
+				624BFD281FCC18C8000574F3 /* Frameworks */,
+				624BFD291FCC18C8000574F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624BFD2D1FCC18C8000574F3 /* PBXTargetDependency */,
+			);
+			name = ResCapUITests;
+			productName = ResCapUITests;
+			productReference = 624BFD2B1FCC18C8000574F3 /* ResCapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		624BFCFC1FCC18C7000574F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Chima Nnadika [el17cdn]";
+				TargetAttributes = {
+					624BFD031FCC18C7000574F3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					624BFD1F1FCC18C8000574F3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 624BFD031FCC18C7000574F3;
+					};
+					624BFD2A1FCC18C8000574F3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 624BFD031FCC18C7000574F3;
+					};
+				};
+			};
+			buildConfigurationList = 624BFCFF1FCC18C7000574F3 /* Build configuration list for PBXProject "ResCap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 624BFCFB1FCC18C7000574F3;
+			productRefGroup = 624BFD051FCC18C7000574F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				624BFD031FCC18C7000574F3 /* ResCap */,
+				624BFD1F1FCC18C8000574F3 /* ResCapTests */,
+				624BFD2A1FCC18C8000574F3 /* ResCapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		624BFD021FCC18C7000574F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624BFD1A1FCC18C8000574F3 /* LaunchScreen.storyboard in Resources */,
+				624BFD171FCC18C8000574F3 /* Assets.xcassets in Resources */,
+				62374F2F1FD5E4BB001BEC4C /* icon@3x.png in Resources */,
+				624BFD151FCC18C7000574F3 /* Main.storyboard in Resources */,
+				62374F2E1FD5E4BB001BEC4C /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624BFD1E1FCC18C8000574F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624BFD291FCC18C8000574F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		624BFD001FCC18C7000574F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622BA6291FD73FD7001D06CF /* FifthViewController.m in Sources */,
+				628EF36D1FD891440007978C /* WebViewController.m in Sources */,
+				62A4FB161FCD6F0E0058EF91 /* FourthViewController.m in Sources */,
+				624BFD121FCC18C7000574F3 /* SecondViewController.m in Sources */,
+				62A4FB241FCD706F0058EF91 /* Resistor.m in Sources */,
+				624BFD0C1FCC18C7000574F3 /* AppDelegate.m in Sources */,
+				624BFD421FCC1A29000574F3 /* ResistorValue.m in Sources */,
+				62A4FB191FCD6F930058EF91 /* TableViewController.m in Sources */,
+				624BFD0F1FCC18C7000574F3 /* FirstViewController.m in Sources */,
+				624BFD451FCC39FC000574F3 /* CapacitorValue.m in Sources */,
+				624BFD091FCC18C7000574F3 /* main.m in Sources */,
+				624BFD481FCC706B000574F3 /* ThirdViewController.m in Sources */,
+				62A4FB251FCD706F0058EF91 /* ResistorDataModel.m in Sources */,
+				622BA62C1FD7471C001D06CF /* ResistorCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624BFD1C1FCC18C8000574F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624BFD251FCC18C8000574F3 /* ResCapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624BFD271FCC18C8000574F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624BFD301FCC18C8000574F3 /* ResCapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		624BFD221FCC18C8000574F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 624BFD031FCC18C7000574F3 /* ResCap */;
+			targetProxy = 624BFD211FCC18C8000574F3 /* PBXContainerItemProxy */;
+		};
+		624BFD2D1FCC18C8000574F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 624BFD031FCC18C7000574F3 /* ResCap */;
+			targetProxy = 624BFD2C1FCC18C8000574F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		624BFD131FCC18C7000574F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				624BFD141FCC18C7000574F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		624BFD181FCC18C8000574F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				624BFD191FCC18C8000574F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		624BFD321FCC18C8000574F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		624BFD331FCC18C8000574F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		624BFD351FCC18C8000574F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ResCap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.ResCap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		624BFD361FCC18C8000574F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ResCap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.ResCap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		624BFD381FCC18C8000574F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ResCapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.ResCapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResCap.app/ResCap";
+			};
+			name = Debug;
+		};
+		624BFD391FCC18C8000574F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ResCapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.ResCapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ResCap.app/ResCap";
+			};
+			name = Release;
+		};
+		624BFD3B1FCC18C8000574F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ResCapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.ResCapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ResCap;
+			};
+			name = Debug;
+		};
+		624BFD3C1FCC18C8000574F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ResCapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.ac.leeds.ResCapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ResCap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		624BFCFF1FCC18C7000574F3 /* Build configuration list for PBXProject "ResCap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624BFD321FCC18C8000574F3 /* Debug */,
+				624BFD331FCC18C8000574F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624BFD341FCC18C8000574F3 /* Build configuration list for PBXNativeTarget "ResCap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624BFD351FCC18C8000574F3 /* Debug */,
+				624BFD361FCC18C8000574F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624BFD371FCC18C8000574F3 /* Build configuration list for PBXNativeTarget "ResCapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624BFD381FCC18C8000574F3 /* Debug */,
+				624BFD391FCC18C8000574F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624BFD3A1FCC18C8000574F3 /* Build configuration list for PBXNativeTarget "ResCapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624BFD3B1FCC18C8000574F3 /* Debug */,
+				624BFD3C1FCC18C8000574F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 624BFCFC1FCC18C7000574F3 /* Project object */;
+}
